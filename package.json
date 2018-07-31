@@ -1,6 +1,6 @@
 {
   "name": "iplocation",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "description": "get ip location information",
   "main": "index.js",
   "files": [
