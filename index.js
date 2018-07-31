@@ -5,6 +5,7 @@ var ipRegex = require('ip-regex')
 var request = require('request')
 
 var defaultProviders = [
+  `http://api.ipstack.com/186.116.207.169?access_key=${process.env.FREEGEOIP_ACCESS_KEY}&output=json&legacy=1`,
   'https://ipapi.co/*/json/',
   'https://api.ipdata.co/*',
   'http://geoip.nekudo.com/api/*',
